@@ -1,0 +1,1 @@
+# remove-salt-and-pepper-noise-from-an-image
