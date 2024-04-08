@@ -1,0 +1,9 @@
+% Read the image
+img = imread('input_image.jpg');
+
+% Apply median filter to remove noise
+filtered_img = medfilt2(img);
+
+% Display the original and filtered images
+subplot(1,2,1), imshow(img), title('Original Image');
+subplot(1,2,2), imshow(filtered_img), title('Filtered Image');
